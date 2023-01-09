@@ -1,0 +1,1 @@
+{"version":3,"sources":["fonts.scss"],"names":[],"mappings":"AAAA;EACE;EACA","file":"fonts.css","sourcesContent":["@font-face {\r\n  font-family: fontmain;\r\n  src: url(../font/Montserrat-VariableFont_wght.ttf);\r\n}\r\n"]}
