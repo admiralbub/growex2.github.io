@@ -426,6 +426,26 @@ main .store_block_catalogs {
   text-align: center;
   justify-content: space-between !important;
 }
+main .store_block #strore-catagory2 {
+  padding-top: 0px;
+}
+main .store_block .category_buttons {
+  margin-top: 60px;
+}
+main .store_block .category_buttons .category_button {
+  padding: 10px 30px;
+  background: #ffffff;
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  color: #282828;
+  /* margin-left: 10px; */
+  margin-right: 25px;
+}
+main .store_block .category_buttons .category_button:hover {
+  border: 1px solid #5A6C56;
+  transition: 0.5s ease-in-out;
+  color: background_button-green;
+}
 main .store_block .block_catalog {
   text-align: center;
   margin-bottom: 20px;
