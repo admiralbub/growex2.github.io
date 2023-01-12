@@ -274,6 +274,10 @@ main .banner .left_menu-category ul {
   padding-bottom: 5px;
   padding-top: 12px;
 }
+main .banner .left_menu-category ul li:hover {
+  background: #D0D0D0;
+  transition: 0.2s ease-in-out;
+}
 main .banner .left_menu-category .next_menu_left {
   color: #000000;
   position: absolute;
@@ -409,17 +413,19 @@ main .mini_menu_icon {
   width: 205px;
 }
 main .main_text_about {
-  padding-top: 35px;
+  padding-top: 55px;
   text-align: center;
   font-size: 18px;
   color: #D0D0D0;
   line-height: 40px;
+  font-weight: 600;
 }
 main .store_block {
   padding-top: 35px;
 }
 main .store_block h2 {
   font-weight: bold;
+  padding-left: 9px;
 }
 main .store_block_catalogs {
   padding-top: 30px;
@@ -431,6 +437,7 @@ main .store_block #strore-catagory2 {
 }
 main .store_block .category_buttons {
   margin-top: 60px;
+  margin-left: 9px;
 }
 main .store_block .category_buttons .category_button {
   padding: 10px 30px;
@@ -511,6 +518,25 @@ main .new_block {
 }
 main .new_block h2 {
   font-weight: bold;
+  margin-left: 9px;
+}
+main .new_block .category_buttons {
+  margin-top: 60px;
+}
+main .new_block .category_buttons .category_button {
+  margin-left: 9px;
+  padding: 10px 30px;
+  background: #ffffff;
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  color: #282828;
+  /* margin-left: 10px; */
+  margin-right: 25px;
+}
+main .new_block .category_buttons .category_button:hover {
+  border: 1px solid #5A6C56;
+  transition: 0.5s ease-in-out;
+  color: background_button-green;
 }
 main .new_block_catalogs {
   padding-top: 30px;
@@ -579,8 +605,27 @@ main .new_block .block_catalog-basket .btn-basket:hover {
 main .popular_block {
   padding-top: 66px;
 }
+main .popular_block .category_buttons {
+  margin-top: 60px;
+  margin-left: 9px;
+}
+main .popular_block .category_buttons .category_button {
+  padding: 10px 30px;
+  background: #ffffff;
+  border: 1px solid #D0D0D0;
+  border-radius: 5px;
+  color: #282828;
+  /* margin-left: 10px; */
+  margin-right: 25px;
+}
+main .popular_block .category_buttons .category_button:hover {
+  border: 1px solid #5A6C56;
+  transition: 0.5s ease-in-out;
+  color: background_button-green;
+}
 main .popular_block h2 {
   font-weight: bold;
+  margin-left: 9px;
 }
 main .popular_block_catalogs {
   padding-top: 30px;
