@@ -32,8 +32,15 @@ $( document ).ready(function() {
   	autoplay: true,
   	autoplaySpeed: 5000,
 	});
-	
-
+ 
+	$("#button_strore-catagory1").click(function(){
+  		$("#strore-catagory1 div").show();
+  		$("#strore-catagory2 div").hide();
+	});
+	$("#button_strore-catagory2").click(function(){
+  		$("#strore-catagory2 div").show();
+  		$("#strore-catagory1 div").hide();
+	});
 });
 function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
