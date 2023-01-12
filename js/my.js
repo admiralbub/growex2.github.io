@@ -41,6 +41,23 @@ $( document ).ready(function() {
   		$("#strore-catagory2 div").show();
   		$("#strore-catagory1 div").hide();
 	});
+	$("#button_new-catagory1").click(function(){
+  		$("#new-catagory1 div").show();
+  		$("#new-catagory2 div").hide();
+	});
+	$("#button_new-catagory2").click(function(){
+  		$("#new-catagory2 div").show();
+  		$("#new-catagory1 div").hide();
+	});
+
+	$("#button_popular-catagory1").click(function(){
+  		$("#popular-catagory1 div").show();
+  		$("#popular-catagory2 div").hide();
+	});
+	$("#button_popular-catagory2").click(function(){
+  		$("#popular-catagory2 div").show();
+  		$("#popular-catagory1 div").hide();
+	});
 });
 function openNav() {
   document.getElementById("mySidenav").style.width = "350px";
